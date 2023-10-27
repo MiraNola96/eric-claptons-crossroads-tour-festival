@@ -117,12 +117,18 @@
 
 .content {
   text-align: center;
+  margin-top: 30em;
 }
 
 .content h1 {
   font-size: 100px;
   color:#FF4C29;
   font-weight: 600;
+  transition: .5s;
+}
+
+.content h1:hover {
+  color: #082032;
 }
 
 .content h2 {
@@ -130,6 +136,10 @@
   color:#FF4C29;
   font-weight: 600;
   font-family: 'Lobster' cursive;
+}
+
+.content h2:hover {
+  color: #082032;
 }
 
 .content a {
@@ -153,6 +163,20 @@
  
 
 /* media querries for desktop version */
+
+@media (min-aspect-ratio: 16/9){
+  .back-video{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9){
+  .back-video{
+    width: auto;
+    height: 100%;
+  }
+}
 
 @media screen and (min-width:600px){
   .nav-toggle-label {
