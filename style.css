@@ -18,7 +18,7 @@
    font-family: 'Lobster', cursive;
  }
  
- body{
+ body {
    font-family: 'Montserrat', sans-serif;
  }
  
@@ -27,7 +27,7 @@
    background-size: cover;
  }
  
- /* Navigation for mobile goes here */
+ /* Navigation Section */
  
  .navigation {
    background: var(--background);
@@ -204,6 +204,8 @@
     transform-origin: left;
   } 
 }
+
+/* Media Querries Screen Sizes */
 
 @media screen and (max-width: 900px){
   .content {
