@@ -18,6 +18,10 @@
    font-family: 'Lobster', cursive;
  }
  
+ h2 {
+  font-family: 'lobster', cursive;
+}
+
  body {
    font-family: 'Montserrat', sans-serif;
  }
@@ -160,25 +164,53 @@
   z-index: -1;
 }
 
- 
+.section-2 {
+  display: block;
+  margin: 2em;
+}
+
+.left-col {
+  flex: 1;
+}
+
+.right-col {
+  flex: 1;
+}
+
+.left-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-3 {
+  display: block;
+  background: linear-gradient(119deg, #082032 37.19%, #FF4C29 87.9%);
+}
+
+.left-col-2 {
+  flex: 1;
+}
+
+.right-col-2 {
+  flex: 1;
+}
+
+.left-col-2 img {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+  margin-left: 15em;
+}
+
+.left-col-2 h1 {
+ font-size: 60px;
+}
+
 
 /* media querries for desktop version */
 
-@media (min-aspect-ratio: 16/9){
-  .back-video{
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media (max-aspect-ratio: 16/9){
-  .back-video{
-    width: auto;
-    height: 100%;
-  }
-}
-
-@media screen and (min-width:600px){
+@media screen and (min-width:720px){
   .nav-toggle-label {
     display: none;
   }
@@ -208,6 +240,8 @@
     margin-bottom: 0;
   }
   
+
+
 /* add a line above, below, left, or right of selection or hover */
   
   nav a::before {
@@ -227,32 +261,38 @@
     transition: transform ease-in-out 350ms;
     transform-origin: left;
   } 
-}
 
-/* Media Querries Screen Sizes */
+  .section-2 {
+    display: flex;
+    padding: 3em;
+    gap: 1em;
+    align-items: center;
+  }
 
-@media screen and (max-width: 900px){
-  .content {
-    grid-template-columns: repeat(2, 1fr);
-    padding: 1em;
+  .section-3 {
+    display: flex;
+    padding: 3em;
+    gap: 1em;
+    align-items: center;
   }
 }
 
-@media screen and (max-width: 450px){
-  .content {
-    grid-template-columns: repeat(1, 1fr);
-    } 
-  }
+/* ******* */
 
-@media screen and (max-width: 900px){
-  .container {
-    grid-template-columns: repeat(2, 1fr);
-    padding: 1em;
+
+/* Media queries for video display */
+
+
+@media (min-aspect-ratio: 16/9){
+  .back-video{
+    width: 100%;
+    height: auto;
   }
 }
 
-@media screen and (max-width: 450px){
-  .container {
-    grid-template-columns: repeat(1, 1fr);
-    } 
+@media (max-aspect-ratio: 16/9){
+  .back-video{
+    width: auto;
+    height: 100%;
   }
+}
