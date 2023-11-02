@@ -3,6 +3,7 @@
 
 :root {
   --background: #082032;
+  --secondary-color: #FFF5E0;
  }
  
  /* Color Pallette (Blue: #082032), (Cream: #FFF5E0), (Orange:#FF4C29)  */
@@ -151,7 +152,7 @@
   display: inline-block;
   color:#FF4C29;
   font-size: 24px;
-  border: 2px solid #FFF5E0;
+  border: 2px solid var(--secondary-color);
   padding: 14px 70px;
   border-radius: 50px;
   margin-top: 20px;
@@ -164,11 +165,6 @@
   z-index: -1;
 }
 
-.section-2 {
-  display: block;
-  margin: 2em;
-}
-
 .left-col {
   flex: 1;
 }
@@ -178,14 +174,30 @@
 }
 
 .left-col img {
-  width: 100%;
-  height: 100%;
+  width: 648px;
+  height: 458px;
   object-fit: cover;
+  margin-top: 3em;
+  margin-right: 5em;
+  margin-left: 8em;
+  margin-bottom: 3em;
+}
+.crossroads-container {
+  background: linear-gradient(119deg, #082032 37.19%, #FF4C29 87.9%);
 }
 
-.section-3 {
+.antigua-heading {
+  font-size: 72px;
+}
+
+.section {
   display: block;
-  background: linear-gradient(119deg, #082032 37.19%, #FF4C29 87.9%);
+  padding: 5em;
+}
+
+.section-lt-bg {
+  background: var(--secondary-color);
+  padding-bottom: 3em;
 }
 
 .left-col-2 {
@@ -200,7 +212,7 @@
   width: 60%;
   height: 60%;
   object-fit: cover;
-  margin-left: 15em;
+  margin-left: 10em;
 }
 
 .left-col-2 h1 {
@@ -208,9 +220,44 @@
 }
 
 .section-4 img {
- color:#082032;
+ background: #FFF5E0;
 }
 
+.left-col-2 {
+  flex: 1;
+}
+
+.right-col-2 {
+  flex: 1;
+}
+
+.right-col-2 img {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+  margin-left: 15em;
+}
+
+.left-col-2 h1 {
+ font-size: 60px;
+}
+
+.left-col-map img {
+width: 478px;
+height: 857px;
+margin-left: 13em;
+margin-right: 5em;
+}
+
+.right-col-p {
+  margin: 8em;
+}
+
+iframe {
+  width: 759px;
+  height: 431px;
+  margin-right: 3em;
+}
 
 /* media querries for desktop version */
 
@@ -266,14 +313,7 @@
     transform-origin: left;
   } 
 
-  .section-2 {
-    display: flex;
-    padding: 3em;
-    gap: 1em;
-    align-items: center;
-  }
-
-  .section-3 {
+  .section {
     display: flex;
     padding: 3em;
     gap: 1em;
