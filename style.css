@@ -184,6 +184,7 @@
 }
 .crossroads-container {
   background: linear-gradient(119deg, #082032 37.19%, #FF4C29 87.9%);
+  padding-bottom: 3em;
 }
 
 .antigua-heading {
@@ -257,6 +258,28 @@ iframe {
   width: 759px;
   height: 431px;
   margin-right: 3em;
+}
+
+/* Carousel */
+
+.carousel-cell {
+  width: 50%;
+  height: 600px;
+  margin-right: 10px;
+}
+
+.carousel-cell img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.flickity-prev-next-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background:#FF4C29;
 }
 
 /* media querries for desktop version */
