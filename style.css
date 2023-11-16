@@ -18,7 +18,7 @@ h1 {
    font-family: 'Lobster', cursive;
  }
  
- h2 {
+h2 {
   font-family: 'lobster', cursive;
 }
 
@@ -26,11 +26,7 @@ h1 {
    font-family: 'Montserrat', sans-serif;
  }
  
- .content {
-   height: 95vh;
-   background-size: cover;
- }
- 
+
  .btn {
   display: inline-block;
   background:#FF4C29;
@@ -143,6 +139,8 @@ h1 {
 .content {
   text-align: center;
   margin-top: 30em;
+  height: 95vh;
+  background-size: cover;
 }
 
 .content h1 {
@@ -331,6 +329,14 @@ iframe {
 }
 /* ------------------------------------------------> */
 
+.center-headline h1{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 1em;
+  font-size: 72px;
+  color:#FF4C29;
+}
+
 .card-container {
   display: flex;
   flex-direction: column;
@@ -338,47 +344,58 @@ iframe {
 }
 
 .card {
-  width: 300px;
+  width: 70%;
   background-color: #082032;
-  margin-bottom: 5px;
-  border-radius: 8px;
+  margin: 15px auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   position: relative;
+  border-left: 15px solid #FF4C29;;
 }
 
-.orange-bar {
-  width: 15px;
-  height: 100%;
-  background-color: #FF4C29;
+.card-content {
+  padding: 4em;
+  position: relative;
+}
+
+.card-content::after {
+  content: "\201c";
+  color:#FF4C29;
   position: absolute;
-  top: 0;
-  left: 0;
+  right: 15px;
+  top: 15px;
+  font-size: 13em;
 }
 
-.content {
-  padding: 20px;
+.card-content h1{
+  color:#FFF5E0;
+  padding-right:50px;
+  padding-left: 50px;
+  padding-bottom: 1em;
 }
 
-.title {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
+.card-content p {
+  color:#FFF5E0;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
-.info {
-  font-size: 14px;
+/* footer */
+/* -----------------------------------------------> */
+footer {
+  height:400px;
+  background-color: #082032;
   color: #FFF5E0;
+  text-align: center;
+  margin-top: 3em;
 }
 
-.quotation-mark {
-  font-size: 36px;
-  color: #FF4C29;
-  position: absolute;
-  top: 10px;
-  right: 10px;
+footer h4{
+  padding-top: 20%;
 }
+
 /* white circles */
+/* -----------------------------------------------> */
 .flickity-page-dots .dot {
   width: 12px;
   height: 12px;
@@ -390,6 +407,12 @@ iframe {
 .flickity-page-dots .dot.is-selected {
   background: var(--secondary-color);
 }
+
+
+
+
+
+
 
 /* media querries for desktop version */
 /* -----------------------------------------------> */
