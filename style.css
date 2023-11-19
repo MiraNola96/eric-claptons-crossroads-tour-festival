@@ -289,6 +289,12 @@ h2 {
   text-align: center;
 }
 
+iframe {
+  width: 759px;
+  height: 431px;
+  margin-right: 3em;
+}
+
 /* section 4 */
 /* -----------------------------------------------> */
 .section {
@@ -311,12 +317,6 @@ h2 {
   padding-bottom: .5em;
   font-size: 36px;
   text-decoration: underline #FF4C29;
-}
-
-iframe {
-  width: 759px;
-  height: 431px;
-  margin-right: 3em;
 }
 
 /* Carousel */
