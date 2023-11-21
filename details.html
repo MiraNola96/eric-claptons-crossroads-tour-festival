@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="details.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -20,10 +20,25 @@
     </div>
 
 <!-- ------------ ----------------- ------------ -->
-
+<div class="navigation">
+    <h1 class="logo">Eric Clapton's Crossroad Tour</h1>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span><i class="fa-solid fa-bars"></i></span>
+    </label>
+  
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Details</a></li>
+        <li><a href="https://www.ticketmaster.com/" target="_blank">Tickets</a></li>
+        <li><a href="https://hifi247.com/collections/crossroads-guitar-festival.html" target="_blank">Shop</a></li>
+      </ul>
+    </nav>
+  </div>
 <!-- ------------ ----------------- ------------ -->
 
-    <div class="hero">
+    <div class="hero-details">
     </div>
 <!-- ------------ ----------------- ------------ -->
 
@@ -47,8 +62,8 @@
     </div>
 
     <div class="start-time">
-        <h2>Sep 23rd</h2>
-        <h2>Afternoon Line-up Starting at 01:30 a.m.</h2>
+        <h2>SEP 23rd<br/>
+        Afternoon Line-up Starting at 01:30 a.m.</h2>
     </div>
 
     <div class="container">
@@ -56,7 +71,7 @@
         <div class="overlay-container">
             <img src="images/peter-asher.jpg" alt="" />
     
-            <div class="overlay overlay-bottom">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Peter Asher
                 </div>
@@ -76,7 +91,7 @@
         <div class="overlay-container">
             <img src="images/james-bullard.jpg" alt="" />
     
-            <div class="overlay overlay-cross">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     James Bullard
                 </div>
@@ -86,7 +101,7 @@
         <div class="overlay-container">
             <img src="images/citizen-cope.jpg" alt="" />
     
-            <div class="overlay overlay-right">
+            <div class="overlay overlay-fade">
                 <div class="text">
                 Citizen Cope
                 </div>
@@ -96,7 +111,7 @@
         <div class="overlay-container">
             <img src="images/eric-clapton.jpg" alt="" />
     
-            <div class="overlay overlay-top">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Eric Clapton
                 </div>
@@ -106,7 +121,7 @@
         <div class="overlay-container">
             <img src="images/sheryl-crow.jpg" alt="" />
     
-            <div class="overlay overlay-left">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Sheryl Crow
                 </div>
@@ -116,7 +131,7 @@
         <div class="overlay-container">
             <img src="images/gary-clarkjr.jpg" alt="" />
     
-            <div class="overlay overlay-cross">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Gary Clark Jr.
                 </div>
@@ -126,7 +141,7 @@
         <div class="overlay-container">
             <img src="images/Samantha_fish.jpg" alt="" />
     
-            <div class="overlay overlay-right">
+            <div class="overlay overlay-fade">
                 <div class="text">
                 Samantha Fish
                 </div>
@@ -136,7 +151,7 @@
         <div class="overlay-container">
             <img src="images/eric-gales.jpg" alt="" />
     
-            <div class="overlay overlay-top">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Eric Gales
                 </div>
@@ -146,7 +161,7 @@
         <div class="overlay-container">
             <img src="images/ben-haggard.jpg" alt="" />
     
-            <div class="overlay overlay-left">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Ben Haggard
                 </div>
@@ -164,7 +179,7 @@
         <div class="overlay-container">
             <img src="images/h-e-r.jpg" alt="" />
     
-            <div class="overlay overlay-bottom">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     H.E.R.
                 </div>
@@ -184,7 +199,7 @@
         <div class="overlay-container">
             <img src="images/Sierra_hull.jpg" alt="" />
     
-            <div class="overlay overlay-cross">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Sierra Hull
                 </div>
@@ -194,7 +209,7 @@
         <div class="overlay-container">
             <img src="images/Kingfish_ingram.jpg" alt="" />
     
-            <div class="overlay overlay-right">
+            <div class="overlay overlay-fade">
                 <div class="text">
                 Christian "Kingfish" Ingram
                 </div>
@@ -204,7 +219,7 @@
         <div class="overlay-container">
             <img src="images/marcus-king.jpg" alt="" />
     
-            <div class="overlay overlay-top">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Marcus King
                 </div>
@@ -214,7 +229,7 @@
         <div class="overlay-container">
             <img src="images/bros-landreth.jpg" alt="" />
     
-            <div class="overlay overlay-left">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     The Bros. Landreth
                 </div>
@@ -224,7 +239,7 @@
         <div class="overlay-container">
             <img src="images/sonny-landreth.jpg" alt="" />
     
-            <div class="overlay overlay-cross">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Sonny Landreth
                 </div>
@@ -234,7 +249,7 @@
         <div class="overlay-container">
             <img src="images/albert-lee.jpg" alt="" />
     
-            <div class="overlay overlay-right">
+            <div class="overlay overlay-fade">
                 <div class="text">
                 Albert Lee
                 </div>
@@ -244,7 +259,7 @@
         <div class="overlay-container">
             <img src="images/los-lobos.jpg" alt="" />
     
-            <div class="overlay overlay-top">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Los Lobos
                 </div>
@@ -254,7 +269,7 @@
         <div class="overlay-container">
             <img src="images/Taj_mahal.jpg" alt="" />
     
-            <div class="overlay overlay-left">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Taj Mahal
                 </div>
@@ -262,13 +277,15 @@
          </div>
     </div>
 
-    <!-- ------------ ----------------- ------------ -->
-    <div class="title">
-        <h1>The Line-Up</h1>
+    <!-- ------------ ----------------- ------------ ------------ ----------------- ------------ -->
+    <div class="line-break">
+        <hr>
     </div>
+    <!-- ------------ ----------------- ------------ ------------ ----------------- ------------ -->
 
     <div class="start-time">
-        <h2>Morning Line-up Starting at 09:00 a.m.</h2>
+        <h2>SEP 24th <br/>
+        Morning Line-up Starting at 09:00 a.m.</h2>
     </div>
 
     <div class="container">
@@ -276,7 +293,7 @@
         <div class="overlay-container">
             <img src="images/pedro-martin.jpg" alt="" />
     
-            <div class="overlay overlay-bottom">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Pedro Martin
                 </div>
@@ -296,7 +313,7 @@
         <div class="overlay-container">
             <img src="images/john-mclaughlin.jpg" alt="" />
     
-            <div class="overlay overlay-cross">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     John McLaughlin
                 </div>
@@ -306,7 +323,7 @@
         <div class="overlay-container">
             <img src="images/del-mccoury-band.jpg" alt="" />
     
-            <div class="overlay overlay-right">
+            <div class="overlay overlay-fade">
                 <div class="text">
                 Del McCoury Band
                 </div>
@@ -316,7 +333,7 @@
         <div class="overlay-container">
             <img src="images/roger-mcguinn.jpg" alt="" />
     
-            <div class="overlay overlay-top">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Roger McGuinn
                 </div>
@@ -326,7 +343,7 @@
         <div class="overlay-container">
             <img src="images/keb-mo.jpg" alt="" />
     
-            <div class="overlay overlay-left">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Keb' Mo'
                 </div>
@@ -336,7 +353,7 @@
         <div class="overlay-container">
             <img src="images/ariel-posen.jpg" alt="" />
     
-            <div class="overlay overlay-cross">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Ariel Posen
                 </div>
@@ -346,7 +363,7 @@
         <div class="overlay-container">
             <img src="images/robert-randolph.jpg" alt="" />
     
-            <div class="overlay overlay-right">
+            <div class="overlay overlay-fade">
                 <div class="text">
                   Robert Randolph
                 </div>
@@ -356,7 +373,7 @@
         <div class="overlay-container">
             <img src="images/kurt-rosenwinkel.jpg" alt="" />
     
-            <div class="overlay overlay-top">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Kurt Rosenwinkel
                 </div>
@@ -366,7 +383,7 @@
         <div class="overlay-container">
             <img src="images/santanna.jpg" alt="" />
     
-            <div class="overlay overlay-left">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Santanna
                 </div>
@@ -384,7 +401,7 @@
         <div class="overlay-container">
             <img src="images/gustavo-santaolalla.jpg" alt="" />
     
-            <div class="overlay overlay-bottom">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Gustavo Santaolalla
                 </div>
@@ -404,7 +421,7 @@
         <div class="overlay-container">
             <img src="images/stephen-stills.jpg" alt="" />
     
-            <div class="overlay overlay-cross">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Stephen Stills
                 </div>
@@ -414,7 +431,7 @@
         <div class="overlay-container">
             <img src="images/molly-tuttle.jpg" alt="" />
     
-            <div class="overlay overlay-right">
+            <div class="overlay overlay-fade">
                 <div class="text">
                 Molly Tuttle
                 </div>
@@ -424,7 +441,7 @@
         <div class="overlay-container">
             <img src="images/jimmy-vaughn.jpg" alt="" />
     
-            <div class="overlay overlay-top">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Jimmy Vaughn
                 </div>
@@ -434,7 +451,7 @@
         <div class="overlay-container">
             <img src="images/the-wallflowers.jpg" alt="" />
     
-            <div class="overlay overlay-left">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     The Wallflowers
                 </div>
@@ -444,7 +461,7 @@
         <div class="overlay-container">
             <img src="images/bradley-walker.jpg" alt="" />
     
-            <div class="overlay overlay-cross">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     Bradley Walker
                 </div>
@@ -454,7 +471,7 @@
         <div class="overlay-container">
             <img src="images/the-war-on-drugs.jpg" alt="" />
     
-            <div class="overlay overlay-right">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     The War On Drugs
                 </div>
@@ -464,7 +481,7 @@
         <div class="overlay-container">
             <img src="images/zz-top.jpg" alt="" />
     
-            <div class="overlay overlay-top">
+            <div class="overlay overlay-fade">
                 <div class="text">
                     ZZ Top
                 </div>
@@ -472,6 +489,17 @@
         </div>
 
     </div>
+
+    <div class="sub-info">
+        <h2>(Two different nights of music. Not all artists will perform both nights, but Eric Clapton will perform both nights.)</h2>
+    </div>
+
+    <footer class="footer">
+        
+        <h4>Eric Clapton's 
+          <br>Crossroads Tour</h4>
+        <h5>© 2023 Eric Clapton's Crossroads Tour</h5>
+      </footer>
 
 </body>
 </html>
