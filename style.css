@@ -16,6 +16,7 @@
  
 h1 {
    font-family: 'Lobster', cursive;
+   font-size: 42px;
  }
  
 h2 {
@@ -219,6 +220,7 @@ p {
 .right-col h1 {
   padding-bottom: .5em;
   font-size: 36px;
+  text-align: center;
 }
 
 .left-col img {
@@ -319,8 +321,7 @@ iframe {
 .left-col-map img {
   width: 478px;
   height: 857px;
-  margin-left: 10em;
-  margin-right: 5em;
+  margin: 0 auto;
 }
 
 .right-col-p {
@@ -374,7 +375,7 @@ iframe {
 }
 
 .card-container {
-  display: flex;
+  display: block;
   flex-direction: column;
   align-items: center;
 }
@@ -405,15 +406,17 @@ iframe {
 
 .card-content h1{
   color:#FFF5E0;
-  padding-right:50px;
-  padding-left: 50px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
   padding-bottom: 1em;
 }
 
 .card-content p {
   color:#FFF5E0;
-  padding-right: 50px;
-  padding-left: 50px;
+  margin: 0 auto;
+  /* padding-right: 50px;
+  padding-left: 50px; */
 }
 
 /* footer */
@@ -446,10 +449,15 @@ footer h4{
 
 /* DETAILS PAGE Line up section */
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+.left-col h1 {
+  font-size: 42px;
+}
+
 .title h1 {
   text-align: center;
   margin-top: 1em;
   margin-bottom: 1em;
+  font-size: 72px;
  }
 
  .start-time {
@@ -529,6 +537,7 @@ footer h4{
   width: 1200px;
   margin: 0 auto;
  }
+
  /* Form Code */
 /* ---------------------------------> */
 .form-container {
