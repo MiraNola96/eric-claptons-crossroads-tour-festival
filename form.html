@@ -6,46 +6,61 @@
     <title>Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
-
 <body>
+    <div class="navigation">
+        <h1 class="logo">Eric Clapton's Crossroad Tour</h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span><i class="fa-solid fa-bars"></i></span>
+        </label>
+  
+    <nav>
+      <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="details.html">Details</a></li>
+         <li><a href="https://www.ticketmaster.com/" target="_blank">Tickets</a></li>
+         <li><a href="https://hifi247.com/collections/crossroads-guitar-festival.html" target="_blank">Shop</a></li>
+      </ul>
+    </nav>
+  </div>
 
-    <div class="contact-title">
-        <h1>Subscribe</h1>
-        <h2>Please Fill Out</h2>
-        
-        <form action="">
-            <div>
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" placeholder="joe">
-            </div>
-          
-            <div>
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" placeholder="Snuffy">
-            </div>
-          
-            <div>
-                <label for="email">E-mail</label>
-                <input type="text" id="email" placeholder="jsnuffy@email.com">
-            </div>
-          
-            <div>
-                <label for="password">Password</label>
-                <input type="password" id="email">
-            </div>
-          
-            <button type"reset">Reset</button>
-            <button type"submit">Submit</button>
-          
-        </form>
+    <div class="form-container">
+        <div class="form-photo">
+        </div>
+  
+        <div class="form-content">
+            <form action="registration.php" method="get">
+                <h3>Create an Account</h3>
+  
+                <div>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" placeholder="Joe">
+                </div>
+  
+                <div>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" placeholder="Snuffy">
+                </div>
+  
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="username@email.com">
+                </div>
+  
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+                </div>
+  
+                <div class="agree">
+                    <input type="checkbox" id="agree">
+                    <label name="agree">I agree to the terms and conditions</label>
+                </div>
+  
+                <button type="submit">Submit</button>
+                <button>Sign In</button>
+  
+            </form>
+        </div>
     </div>
-    
-    <footer class="footer">
-        <h4>Eric Clapton's 
-          <br>Crossroads Tour</h4>
-        <h5>© 2023 Eric Clapton's Crossroads Tour</h5>
-      </footer>
-      
 </body>
-</html>
