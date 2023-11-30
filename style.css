@@ -24,6 +24,10 @@ h2 {
   margin-bottom: .8em;
 }
 
+h3 {
+  color: #FFF5E0;
+}
+
 h4 {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
@@ -156,7 +160,7 @@ p {
 }
 
 .content h1 {
-  font-size: 100px;
+  font-size: 75px;
   color:#FF4C29;
   font-weight: 600;
   transition: .5s;
@@ -167,7 +171,7 @@ p {
 }
 
 .content h2 {
-  font-size: 50px;
+  font-size: 30px;
   color:#FF4C29;
   font-weight: 600;
   font-family: 'Lobster' cursive;
@@ -236,15 +240,12 @@ p {
   padding-bottom: 3em;
 }
 
-
-
 .antigua-heading {
   color: #FFF5E0;
   text-align: center;
   font-size: 72px;
   padding-bottom: .5em;
 }
-
 
 .right-col-2 p {
   color: #FFF5E0;
@@ -593,16 +594,18 @@ footer {
 /* ---------------------------------> */
 .form-container {
   width: 700px;
-  margin: 100px auto 0;
+  margin: 100px auto 5em;
   display: flex;
   filter: drop-shadow(5px 5px 0.5rem #999);
 }
 
 .form-photo {
-  flex-basis: 50%;
+  flex-basis: 30%;
   background: #333;
-  background-image: url("images/crossroads-poster.jpg");
+  background-image: url("images/eric-clapton-2.jpg");
   background-size: cover;
+  display: block;
+  margin-left: 3em;
 }
 
 .form-content {
@@ -611,7 +614,7 @@ footer {
 
 form {
   width: 300px;
-  background: #468B97;
+  background: #082032;
   padding: 3em;
 }
 
@@ -622,13 +625,14 @@ form div {
 label {
   line-height: 2.5;
   font-size: .8em;
+  color: #FFF5E0;
 }
 
 form input {
   padding: 5px;
   width: 100%;
   border: none;
-  border-bottom: 1px solid #0B666A;
+  border-bottom: 1px solid #FF4C29;
   border-left: 4px solid #EF6262;
   background: rgba(255,255,255,.4);
 }
@@ -642,13 +646,13 @@ button {
   margin: 10px;
   border-radius: 25px;
   border: none;
-  background: #F3AA60;
+  background: #FF4C29;
   text-transform: uppercase;
-  color: black;
+  color: #FFF5E0;
 }
 
 button:hover {
-  background: #EF6262;
+  background: #FFF5E0;
 }
 
 
@@ -710,6 +714,20 @@ button:hover {
     transform-origin: left;
   } 
 
+  .content {
+    text-align: center;
+    margin-top: 30em;
+    height: 95vh;
+    background-size: cover;
+  }
+  
+  .content h1 {
+    font-size: 100px;
+    color:#FF4C29;
+    font-weight: 600;
+    transition: .5s;
+  }
+
   .section {
     display: flex;
     padding: 3em;
@@ -753,6 +771,13 @@ button:hover {
    .card-content {
     padding: 4em;
     position: relative;
+  }
+
+  .form-photo {
+    flex-basis: 50%;
+    background: #333;
+    background-image: url("images/eric-clapton-2.jpg");
+    background-size: cover;
   }
 
    .footer-top {
