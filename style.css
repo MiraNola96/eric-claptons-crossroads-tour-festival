@@ -476,6 +476,10 @@ footer {
   border-radius:10px;
  }
 
+ .social-icons {
+  display: flex;
+  padding: 5em;
+}
 
 /* white circles */
 /* -----------------------------------------------> */
@@ -563,7 +567,7 @@ footer {
   position: absolute;
   transition: all .3s ease;
   opacity: 0;
-  background: rgba(255, 76, 41, .4)
+  background: rgba(8, 32, 50, .4)
  }
  
  /*All overlay fade-ins*/
@@ -592,28 +596,21 @@ footer {
 
  /* Form Code */
 /* ---------------------------------> */
-.form-container {
-  width: 700px;
-  margin: 100px auto 5em;
-  display: flex;
-  filter: drop-shadow(5px 5px 0.5rem #999);
-}
 
 .form-photo {
-  flex-basis: 30%;
+  flex: 1;
+  height: 400px;
   background: #333;
   background-image: url("images/eric-clapton-2.jpg");
   background-size: cover;
-  display: block;
-  margin-left: 3em;
 }
 
 .form-content {
+  flex: 1;
   text-align: center;
 }
 
 form {
-  width: 300px;
   background: #082032;
   padding: 3em;
 }
@@ -654,7 +651,6 @@ button {
 button:hover {
   background: #FFF5E0;
 }
-
 
 /* media querries for desktop version                                                                 Media Querries                */
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------> */
@@ -773,11 +769,14 @@ button:hover {
     position: relative;
   }
 
+  .form-container {
+    display: flex;
+    justify-content: center;
+    padding: 3em 6em;
+    filter: drop-shadow(5px 5px 0.5rem #999);
+  }
   .form-photo {
-    flex-basis: 50%;
-    background: #333;
-    background-image: url("images/eric-clapton-2.jpg");
-    background-size: cover;
+    height: auto;
   }
 
    .footer-top {
@@ -791,7 +790,21 @@ button:hover {
     list-style: none;
     justify-content:space-between;
   }
+  .social-icons {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: .5em;
+  }
 
+  .social-icons a {
+    color: #FF4C29;
+    font-size: 2em;
+  }
+
+  .social-icons a:hover {
+    color: #FFF5E0;
+  }
 }
 
 /* Media queries for video display */
