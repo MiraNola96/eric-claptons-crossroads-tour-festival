@@ -74,6 +74,10 @@ p {
    top:0;
    z-index: 999;
  }
+
+ .navigation .logo {
+  margin-left: 60px;
+ }
  
  .nav-toggle {
    display: none;
