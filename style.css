@@ -45,8 +45,6 @@ p {
    font-family: 'Montserrat', sans-serif;
  }
 
- 
-
  .btn {
   display: inline-block;
   background:#FF4C29;
@@ -143,9 +141,6 @@ p {
    transition: opacity 250ms ease-in-out 250ms;
  }
 
- .logo {
-  color:#FFF5E0;
- }
 
 /* hero section */
 /* -----------------------------------------------> */
@@ -160,41 +155,18 @@ p {
   justify-content: center;
 }
 
-.content {
-  text-align: center;
-}
-
-.content h1 {
-  font-size: 75px;
-  color:#FF4C29;
-  font-weight: 600;
-  transition: .5s;
-}
-
-.content h1:hover {
-  color: #FFF5E0;
-}
-
-.content h2 {
-  font-size: 30px;
-  color:#FF4C29;
-  font-weight: 600;
-  font-family: 'Lobster' cursive;
-}
-
-.content h2:hover {
-  color: #FFF5E0;
-}
-
 .content a {
-  text-decoration: none;
-  display: inline-block;
-  color:#FF4C29;
-  font-size: 24px;
-  border: 2px solid var(--secondary-color);
-  padding: 14px 70px;
-  border-radius: 50px;
-  margin-top: 20px;
+  display: flex;
+  position: absolute;
+  top: 625px;
+  right: 317px;
+}
+
+.content img{
+  display: flex;
+  position: absolute;
+  top: 400px;
+  right: 30px;
 }
 
 .back-video {
